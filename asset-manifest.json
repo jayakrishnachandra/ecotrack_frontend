@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ecotrack_frontend/static/css/main.b5df9888.css",
+    "main.js": "/ecotrack_frontend/static/js/main.3b44128f.js",
+    "static/js/453.056c8712.chunk.js": "/ecotrack_frontend/static/js/453.056c8712.chunk.js",
+    "static/media/Loading_2.gif": "/ecotrack_frontend/static/media/Loading_2.85cafe95849eb114d9ab.gif",
+    "index.html": "/ecotrack_frontend/index.html",
+    "main.b5df9888.css.map": "/ecotrack_frontend/static/css/main.b5df9888.css.map",
+    "main.3b44128f.js.map": "/ecotrack_frontend/static/js/main.3b44128f.js.map",
+    "453.056c8712.chunk.js.map": "/ecotrack_frontend/static/js/453.056c8712.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5df9888.css",
+    "static/js/main.3b44128f.js"
+  ]
+}
