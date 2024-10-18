@@ -1,7 +1,7 @@
 {
+  "homepage": "https://jayakrishnachandra.github.io/ecotrack_frontend",
   "name": "ecotrack_frontend",
   "version": "0.1.0",
-  "homepage": "https://jayakrishnachandra.github.io/ecotrack_frontend",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -10,6 +10,7 @@
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.4",
     "ecotrack_frontend": "file:",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
     "react-circular-progressbar": "^2.1.0",
