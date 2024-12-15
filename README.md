@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+EcoTrack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EcoTrack is a comprehensive application designed to monitor and manage water and electricity usage in real-time. It offers users a user-friendly interface to track consumption trends, simulate IoT device data, and view insightful analytics to encourage sustainable resource usage.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Real-Time Dashboard: View live updates of water and electricity usage through visually appealing charts and progress indicators.
 
-### `npm start`
+Data Simulation: Simulate IoT device inputs for testing and analysis without requiring actual IoT hardware.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Analytics: Gain insights into daily consumption trends for better resource management.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Secure Authentication: Use token-based authentication for secure data transactions.
 
-### `npm test`
+Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Dashboard
 
-### `npm run build`
+URL: EcoTrack Dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Purpose: Displays real-time usage data with interactive charts and progress indicators.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Key Features:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Daily water and electricity usage statistics.
 
-### `npm run eject`
+Real-time updates with a smooth user experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Data Simulation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+URL: EcoTrack Data Simulation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Purpose: Allows users to input random values to simulate IoT device data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Key Features:
 
-## Learn More
+Flexible data entry for water and electricity usage.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Updates reflected instantly on the dashboard.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Usage Instructions
 
-### Code Splitting
+Step 1: Sign In
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open both the EcoTrack Dashboard and the EcoTrack Data Simulation applications.
 
-### Analyzing the Bundle Size
+Sign in to both applications using your credentials.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Step 2: Start Simulation
 
-### Making a Progressive Web App
+Navigate to the EcoTrack Data Simulation page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Enter random values for water and electricity usage.
 
-### Advanced Configuration
+Click the Start Simulate button to begin data simulation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Step 3: View Dashboard
 
-### Deployment
+Switch to the EcoTrack Dashboard.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+View live updates and analyze the data being simulated.
 
-### `npm run build` fails to minify
+Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Frontend: React.js
+
+Backend: Spring Boot
+
+Database: MongoDB
+
+Deployment: GitHub Pages (Frontend & Simulation)
+
+Contribution
+
+Contributions are welcome! If you have ideas for improving EcoTrack, feel free to fork the repository and submit a pull request.
