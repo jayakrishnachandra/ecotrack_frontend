@@ -43,8 +43,8 @@
 
 ### **Step 2: Start Simulation**  
 1. Navigate to the [EcoTrack Data Simulation](https://jayakrishnachandra.github.io/ecotrack_updateusage/) page.  
-2. Enter **random values** for water and electricity usage.  
-3. Click the **Start Simulate** button to begin data simulation.  
+2. Click the **Start Simulate** button to begin data simulation.
+3. You can also test with manual inputs if desired.
 
 ### **Step 3: View Dashboard**  
 1. Switch to the [EcoTrack Dashboard](https://jayakrishnachandra.github.io/ecotrack_frontend/).  
