@@ -37,10 +37,10 @@
 
 ## <span style="color:rgb(8, 127, 164);">**Usage Instructions**</span>
 
-### **Step 1: Sign In**  
+### **Step 1: Register and Sign In**  
 1. Open both the [EcoTrack Dashboard](https://jayakrishnachandra.github.io/ecotrack_frontend/) and the [EcoTrack Data Simulation](https://jayakrishnachandra.github.io/ecotrack_updateusage/) applications.  
-2. Sign in to both applications using your credentials.  
-
+2. Register your username and password, then sign in to both applications using your credentials.
+   
 ### **Step 2: Start Simulation**  
 1. Navigate to the [EcoTrack Data Simulation](https://jayakrishnachandra.github.io/ecotrack_updateusage/) page.  
 2. Click the **Start Simulate** button to begin data simulation.
@@ -67,7 +67,3 @@
 If you have ideas for improving **EcoTrack**, feel free to **fork the repository** and submit a **pull request**.  
 
 ---
-
-## <span style="color:rgb(8, 127, 164);">**License**</span>
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.  
