@@ -19,7 +19,7 @@ const Register = ({ onSignIn, toggleRegister }) => {
     };
 
     try {
-      const response = await fetch('https://render-ecotrack.onrender.com/register', {
+      const response = await fetch('http://localhost:8065/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

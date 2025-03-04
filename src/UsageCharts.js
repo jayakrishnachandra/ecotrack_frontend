@@ -14,7 +14,7 @@ const UsageCharts = ({ token }) => {
   useEffect(() => {
     const fetchUsageData = async () => {
       try {
-        const response = await fetch('https://render-ecotrack.onrender.com/getDailyUsage', {
+        const response = await fetch('http://localhost:8083/api/getDailyUsage', {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${token}`,

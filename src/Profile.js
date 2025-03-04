@@ -11,7 +11,7 @@ const Profile = ({ token, setToken }) => {
     useEffect(() => {
         const fetchUsageData = async () => {
             try {
-                const response = await fetch('https://render-ecotrack.onrender.com/userData', {
+                const response = await fetch('http://localhost:8083/api/userData', {
                     method: 'GET',
                     headers: {
                         'Authorization': `Bearer ${token}`,

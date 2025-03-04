@@ -5,31 +5,38 @@ const SignIn = ({ onSignIn, toggleRegister }) => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const handleSignIn = (e) => {
+  const handleSignIn = async (e) => {
     e.preventDefault();
-    const user = { email, password };
+    setError("");
 
-    fetch('https://render-ecotrack.onrender.com/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(user),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Sign-in failed');
-        }
-        return response.text();
-      })
-      .then((data) => {
-        const token = data.split(" ")[2]; // Extracting the token from the response
-        onSignIn(token);
-      })
-      .catch((error) => {
-        setError(error.message);
+    localStorage.setItem("userEmail", email);
+
+    if (!email.trim() || !password.trim()) {
+      setError("Email and password are required");
+      return;
+    }
+
+    try {
+      const response = await fetch("http://localhost:8065/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
       });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Sign-in failed");
+      }
+
+      const data = await response.json();
+      if (!data.token) throw new Error("Token not received");
+
+      onSignIn(data.token);
+    } catch (error) {
+      setError(error.message);
+    }
   };
+
 
   return (
     <div style={styles.container}>
